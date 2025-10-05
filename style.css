@@ -8,7 +8,7 @@ body {
     background: black;
     color: white;
     text-align: center;
-    padding: 40px 0;
+    padding: 40px;
     font-family: 'Lobster', cursive;
 }
 
@@ -39,5 +39,31 @@ body {
     margin-top: 40px;
 
 }
+
+
+@media (max-width: 600px) {
+
+    .body {
+        padding: 20px 10px;
+        font-size: 18px;
+    }
+
+    .social-icons a {
+        font-size: 20px; 
+        margin: 0 5px;
+    }
+
+    .header {
+        padding: 30px 10px;
+        font-size: 16px;
+    }
+
+
+    img {
+        width: 80%;
+        max-width: 250px; 
+    }
+}
+
 
 
